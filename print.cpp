@@ -10,7 +10,7 @@ ll sum(ll i){
 
 // Soma dos n primeiros cubos
 ll sum(ll i){
-  return ((i * (i+1) * (2*i + 1)) / 6) * ((i * (i+1) * (2*i + 1)) / 6);
+  return (n*n + n) * (n*n + n) / 4;
 }
 
 // Soma dos n primeiros impares

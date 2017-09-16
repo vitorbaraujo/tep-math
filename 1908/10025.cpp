@@ -24,13 +24,11 @@ int main(){
         int k;
         if(x) getchar();
         scanf("%d", &k);
-        
+
         ll idx = bb(1, MAX, abs(k));
         ll sum = (idx * (idx + 1)) / 2;
 
-        //cout << "k: " << k << ", idx: " << idx << endl;
-        
-        while(sum % 2 != abs(k) % 2){
+        while(sum % 2 != abs(k) % 2){ // mesma paridade
             idx++;
             sum = (idx * (idx + 1)) / 2;
         }
