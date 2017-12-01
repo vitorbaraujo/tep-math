@@ -84,4 +84,12 @@ ll fast_exp(ll a, ll n, ll m){
 
 // NOTE python3 integer division: //
 // NOTE python3 float division: /
+
+// Numero de digitos de C(n,k)
+// log10(n) -> log(n)/log(10)
+double r = 0;
+for(int i=0;i<k;i++)
+  r += log10(n-i) - log10(i+1)
+ll res = floor(r) + 1
+cout << res << endl;
 ```
